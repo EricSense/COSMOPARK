@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>COSMOPARK · The Universe, For Everyone</title>
+    <meta
+      name="description"
+      content="COSMOPARK is the world's first fully immersive, AI-powered space tourism park — bringing the universe down to Earth for everyone."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">
+          <span class="logo-mark">☄️</span>
+          <div class="logo-text">
+            <span class="logo-title">COSMOPARK</span>
+            <span class="logo-tagline">The Universe, For Everyone.</span>
+          </div>
+        </div>
+        <nav class="main-nav">
+          <a href="#experience">Experience</a>
+          <a href="#ai-core">AI Core</a>
+          <a href="#pricing">Tickets</a>
+          <a href="#roadmap">Roadmap</a>
+          <a href="#investors" class="nav-cta">Investors</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">AI-Powered Space Tourism Park · 2026</p>
+            <h1>
+              Bring the awe of<br />
+              <span class="accent">space</span> down to Earth.
+            </h1>
+            <p class="hero-subtitle">
+              Only 650 humans have ever seen Earth from space. COSMOPARK uses
+              AI, real space data, and full-sensory simulation to let
+              <strong>everyone</strong> feel what astronauts feel — no rocket
+              required.
+            </p>
+            <div class="hero-actions">
+              <button class="btn btn-primary" data-scroll-to="#experience">
+                Explore the Park
+              </button>
+              <button class="btn btn-ghost" data-scroll-to="#investors">
+                View Investor Snapshot
+              </button>
+            </div>
+            <div class="hero-stats">
+              <div class="stat">
+                <span class="stat-label">Ticket Range</span>
+                <span class="stat-value">$80–$250</span>
+              </div>
+              <div class="stat">
+                <span class="stat-label">Seed Round</span>
+                <span class="stat-value">$50M</span>
+              </div>
+              <div class="stat">
+                <span class="stat-label">Market</span>
+                <span class="stat-value">$8.6B+</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="orbital-card">
+              <div class="orbital-glow"></div>
+              <div class="orbital-content">
+                <p class="orbital-label">Visitor Journey Preview</p>
+                <ol class="journey-list">
+                  <li>
+                    <span>🚀 Launch Experience</span>
+                    <small>Feel real G‑force in a full-motion simulator.</small>
+                  </li>
+                  <li>
+                    <span>🌕 Moon Zone</span>
+                    <small>Walk in 1/6th gravity and watch Earthrise.</small>
+                  </li>
+                  <li>
+                    <span>🔴 Mars Zone</span>
+                    <small>Drive rovers across AI-generated Martian terrain.</small>
+                  </li>
+                  <li>
+                    <span>🌌 Deep Space Dome</span>
+                    <small>Lose yourself in an infinite, reactive universe.</small>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROBLEM / SOLUTION -->
+      <section class="split-section">
+        <div class="container split-grid">
+          <div class="card gradient-border">
+            <h2>The Problem</h2>
+            <p class="muted">
+              8 billion people live on Earth. Only 650 have ever seen it from
+              space.
+            </p>
+            <ul class="pill-list">
+              <li><strong>Cost barrier</strong> — $250,000+ per seat.</li>
+              <li><strong>No access</strong> — space is off-limits for families and schools.</li>
+              <li><strong>Lost inspiration</strong> — kids grow up without cosmic awe.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h2>The Solution</h2>
+            <p class="muted">
+              COSMOPARK is the world's first fully immersive, AI-powered space
+              tourism park — bringing the universe down to Earth for everyone.
+            </p>
+            <ul class="pill-list">
+              <li>Full-sensory, cinematic space simulations.</li>
+              <li>Accessible to families, children, and schools.</li>
+              <li>Experiences that rival actual space travel.</li>
+              <li>Built with NASA data and real aerospace tech.</li>
+            </ul>
+            <p class="micro-copy">
+              <em>Jurassic Park made us fear the past. COSMOPARK makes us dream of the future.</em>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- VISITOR EXPERIENCE -->
+      <section id="experience" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <h2>The Visitor Experience</h2>
+            <p class="muted">
+              A curated journey across six zones, designed to compress a
+              lifetime of astronaut awe into a single day.
+            </p>
+          </div>
+          <div class="experience-layout">
+            <div class="experience-tabs">
+              <button class="exp-tab active" data-zone="moon">🌕 Moon Zone</button>
+              <button class="exp-tab" data-zone="mars">🔴 Mars Zone</button>
+              <button class="exp-tab" data-zone="iss">🛸 ISS Simulator</button>
+              <button class="exp-tab" data-zone="launch">🚀 Launch</button>
+              <button class="exp-tab" data-zone="deep-space">🌌 Deep Space Dome</button>
+              <button class="exp-tab" data-zone="alien-worlds">👽 Alien Worlds</button>
+            </div>
+            <div class="experience-panels">
+              <article class="exp-panel active" data-zone-panel="moon">
+                <h3>Moon Zone</h3>
+                <p>
+                  Walk on an AI-rendered lunar surface, feel 1/6th gravity, and
+                  watch Earth rise over the horizon in real time.
+                </p>
+                <ul class="feature-list">
+                  <li>Physics-accurate low-gravity simulation.</li>
+                  <li>Audio-reactive Earthrise moments for maximum awe.</li>
+                  <li>Guided missions with AI astronaut companions.</li>
+                </ul>
+              </article>
+              <article class="exp-panel" data-zone-panel="mars">
+                <h3>Mars Zone</h3>
+                <p>
+                  Navigate red dust terrain, survive dust storms, and drive
+                  rovers across a simulated Martian landscape.
+                </p>
+                <ul class="feature-list">
+                  <li>Terrain generated from NASA Mars elevation data.</li>
+                  <li>Dynamic weather: storms, low visibility, mission drills.</li>
+                  <li>STEM challenges for schools and families.</li>
+                </ul>
+              </article>
+              <article class="exp-panel" data-zone-panel="iss">
+                <h3>ISS Simulator</h3>
+                <p>
+                  Live like an astronaut: eat space food, sleep in
+                  zero-gravity pods, and conduct microgravity experiments.
+                </p>
+                <ul class="feature-list">
+                  <li>1:1 modules modeled after the ISS interior.</li>
+                  <li>Hands-on STEM experiments for all ages.</li>
+                  <li>Live-link overlays with real ISS telemetry.</li>
+                </ul>
+              </article>
+              <article class="exp-panel" data-zone-panel="launch">
+                <h3>Launch Experience</h3>
+                <p>
+                  Strap in for a launch sequence that simulates real G‑forces,
+                  vibration, and sound — from countdown to orbit.
+                </p>
+                <ul class="feature-list">
+                  <li>Full-motion seats synced to flight profile.</li>
+                  <li>Immersive 360° visuals and spatial audio.</li>
+                  <li>Selectable mission profiles (Moon, Mars, LEO).</li>
+                </ul>
+              </article>
+              <article class="exp-panel" data-zone-panel="deep-space">
+                <h3>Deep Space Dome</h3>
+                <p>
+                  Stand under a living universe: AI-rendered galaxies, nebulae,
+                  and black holes that react to audience emotion.
+                </p>
+                <ul class="feature-list">
+                  <li>Real-time cosmic visualizations from live data feeds.</li>
+                  <li>Emotion-aware sequences tuned for peak awe.</li>
+                  <li>Special night sessions for stargazer clubs.</li>
+                </ul>
+              </article>
+              <article class="exp-panel" data-zone-panel="alien-worlds">
+                <h3>Alien Worlds Biodome</h3>
+                <p>
+                  Step into AI-generated alien ecosystems — speculative life
+                  forms based on cutting-edge astrobiology.
+                </p>
+                <ul class="feature-list">
+                  <li>Procedurally generated planets and biomes.</li>
+                  <li>Interactive “what if?” scenarios for classrooms.</li>
+                  <li>Accessible science storytelling for all ages.</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- AI CORE -->
+      <section id="ai-core" class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Powered by the COSMOPARK AI Core</h2>
+            <p class="muted">
+              A real-time simulation engine that blends generative AI, live
+              space data, and emotional intelligence.
+            </p>
+          </div>
+          <div class="grid-3">
+            <div class="card">
+              <h3>Real-Time Environments</h3>
+              <p>
+                AI renders photorealistic space scenes that respond to every
+                visitor movement — no two visits are the same.
+              </p>
+              <ul class="micro-list">
+                <li>Procedural galaxies & nebulae.</li>
+                <li>Physics-aware lighting and motion.</li>
+                <li>Optimized for high guest throughput.</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Emotional Adaptation</h3>
+              <p>
+                COSMOPARK reads facial expressions and biometrics to keep every
+                guest at the edge of awe, not overwhelm.
+              </p>
+              <ul class="micro-list">
+                <li>Intensity tuning in real time.</li>
+                <li>Custom tracks for children and schools.</li>
+                <li>Accessibility-first design.</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>AI Astronaut Companions</h3>
+              <p>
+                Personal AI guides that become any astronaut: answer questions,
+                tell stories, and inspire the next generation.
+              </p>
+              <ul class="micro-list">
+                <li>Role-based narratives (Commander, Scientist, Engineer).</li>
+                <li>Age-aware explanations and difficulty.</li>
+                <li>Multilingual, globally inclusive.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="live-data-callout">
+            <div>
+              <h3>Live Space Data Feed</h3>
+              <p class="muted">
+                COSMOPARK integrates NASA & ESA live feeds. When a new planet or
+                event is discovered, it appears in the park within hours.
+              </p>
+            </div>
+            <div class="badge">Live linked to the real universe ✨</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRICING & BUSINESS MODEL -->
+      <section id="pricing" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Tickets & Revenue Model</h2>
+            <p class="muted">
+              Designed for everyday families, schools, and corporate partners —
+              mapped directly from the COSMOPARK business model.
+            </p>
+          </div>
+          <div class="pricing-layout">
+            <div class="pricing-cards">
+              <div class="pricing-card">
+                <h3>Basic</h3>
+                <p class="price">$80</p>
+                <p class="muted">Entry to core zones for a half‑day visit.</p>
+                <ul class="micro-list">
+                  <li>Launch Experience</li>
+                  <li>Moon Zone</li>
+                  <li>Deep Space Dome (standard show)</li>
+                </ul>
+              </div>
+              <div class="pricing-card featured">
+                <div class="badge badge-primary">Most Popular</div>
+                <h3>Explorer</h3>
+                <p class="price">$150</p>
+                <p class="muted">Full‑day park access plus ISS immersion.</p>
+                <ul class="micro-list">
+                  <li>All 6 Experience Zones</li>
+                  <li>AI Astronaut Companion</li>
+                  <li>Priority time slots</li>
+                </ul>
+              </div>
+              <div class="pricing-card">
+                <h3>Astronaut</h3>
+                <p class="price">$250</p>
+                <p class="muted">The full astronaut fantasy with backstage access.</p>
+                <ul class="micro-list">
+                  <li>Private mission briefing</li>
+                  <li>Custom mission profile</li>
+                  <li>Exclusive Deep Space show</li>
+                </ul>
+              </div>
+            </div>
+            <aside class="revenue-card">
+              <h3>Investor Snapshot</h3>
+              <ul class="micro-list">
+                <li><strong>$80–$250</strong> ticket range (Basic → Astronaut).</li>
+                <li><strong>$50K+</strong> per corporate event & product launch.</li>
+                <li><strong>$2M+/yr</strong> education program & STEM curriculum.</li>
+                <li>
+                  <strong>Global licensing</strong> model — COSMOPARK on every continent.
+                </li>
+              </ul>
+              <div class="market-stats">
+                <div>
+                  <span class="stat-label">Space Tourism by 2030</span>
+                  <span class="stat-value">$8.6B</span>
+                </div>
+                <div>
+                  <span class="stat-label">Theme Park Visitors</span>
+                  <span class="stat-value">4.7B/yr</span>
+                </div>
+                <div>
+                  <span class="stat-label">Theme Park Industry</span>
+                  <span class="stat-value">$130B</span>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- ROADMAP -->
+      <section id="roadmap" class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Roadmap to Launch</h2>
+            <p class="muted">
+              A three‑phase build plan that moves from lab simulations to a
+              fully franchised global park footprint.
+            </p>
+          </div>
+          <div class="roadmap-grid">
+            <div class="roadmap-card">
+              <h3>Phase 1 · Years 1–2</h3>
+              <p class="muted">Foundation</p>
+              <ul class="micro-list">
+                <li>Secure founding capital & flagship site.</li>
+                <li>Build AI simulation and R&D labs.</li>
+                <li>Design master park layout & guest flow.</li>
+                <li>Hire aerospace & experience design advisors.</li>
+              </ul>
+            </div>
+            <div class="roadmap-card">
+              <h3>Phase 2 · Years 3–4</h3>
+              <p class="muted">Build & Test</p>
+              <ul class="micro-list">
+                <li>Construct 3 core zones (Launch, Moon, Deep Space).</li>
+                <li>Deploy COSMOPARK AI Core across experiences.</li>
+                <li>Beta test with families, schools, and partners.</li>
+                <li>Launch education & STEM partnership programs.</li>
+              </ul>
+            </div>
+            <div class="roadmap-card">
+              <h3>Phase 3 · Year 5+</h3>
+              <p class="muted">Full Launch</p>
+              <ul class="micro-list">
+                <li>Grand opening with all six zones operational.</li>
+                <li>Global media & influencer campaigns.</li>
+                <li>Franchise and licensing expansion.</li>
+                <li>New content drops synced to space discoveries.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- INVESTORS -->
+      <section id="investors" class="section investors-section">
+        <div class="container investors-grid">
+          <div>
+            <h2>Join the Mission</h2>
+            <p class="muted">
+              We are seeking founding investors to build the most awe‑inspiring
+              place on Earth.
+            </p>
+            <ul class="micro-list">
+              <li>Seed Round: <strong>$50M</strong>.</li>
+              <li>Structure: <strong>Equity + Revenue Share</strong>.</li>
+              <li>Target: Space, entertainment, and deep‑tech partners.</li>
+            </ul>
+            <div class="contact-block">
+              <p class="muted">Investor Contact</p>
+              <p><a href="mailto:hello@cosmopark.space">hello@cosmopark.space</a></p>
+              <p><a href="https://cosmopark.space" target="_blank" rel="noreferrer">cosmopark.space</a></p>
+            </div>
+          </div>
+          <aside class="cta-card">
+            <p class="eyebrow">Prototype Interface</p>
+            <h3>Preview a future COSMOPARK homepage.</h3>
+            <p class="muted">
+              This interactive prototype is a starting point for product, guest
+              experience, and investor conversations.
+            </p>
+            <button class="btn btn-primary" data-scroll-to="#experience">
+              Walk the Experience
+            </button>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© 2026 COSMOPARK · The Universe, For Everyone.</span>
+        <span>Prototype UI for pitch & product exploration.</span>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
+
